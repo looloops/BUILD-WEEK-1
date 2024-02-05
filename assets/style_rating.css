@@ -1,0 +1,66 @@
+main {
+  text-align: center;
+}
+
+h2 {
+  font-size: 35px;
+  margin-bottom: 14px;
+}
+.logo {
+  margin-left: 60px;
+}
+
+.starsContainer {
+  margin-bottom: 55px;
+}
+.starSvg {
+  margin-left: 10px;
+  width: 28px;
+  cursor: pointer;
+}
+
+.starSvg:hover {
+  filter: grayscale(1);
+}
+.greyStar {
+  filter: grayscale(1);
+}
+
+.from0 {
+  margin-bottom: 24px;
+  font-family: "Outfit";
+  font-size: 18px;
+}
+.pLeaveUs {
+  margin-bottom: 32px;
+  font-family: "Outfit";
+  font-size: 18px;
+}
+
+button {
+  display: block;
+  margin: auto;
+  margin-top: 32px;
+  width: 125px;
+  height: 41px;
+  font-family: "Outfit";
+  font-weight: bold;
+  background-color: #00ffff;
+}
+button:hover {
+  box-shadow: 0 0 35px #00ffff;
+  transition: 400ms;
+}
+
+input {
+  margin-top: -10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #d20094;
+  width: 446px;
+  color: gray;
+  text-align: left;
+  outline: none;
+  padding: 8px 30px;
+  font-family: "Outfit";
+}
