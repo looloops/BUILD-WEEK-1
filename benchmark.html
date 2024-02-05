@@ -1,23 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./assets/reset.css" />
+        <link rel="stylesheet" href="./assets/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Outfit:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/reset.css">
-    <link rel="stylesheet" href="./assets/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Outfit:wght@400;700&display=swap"
-        rel="stylesheet">
-</head>
-
-<body>
-    <header>
-        <img class="logo" src="./assets/img/epicode_logo.png" alt="logo epicode">
-    </header>
-
-</body>
-
+    <body>
+        <header>
+            <img class="logo" src="./assets/img/epicode_logo.png" alt="logo epicode" />
+            <div id="timer" class="inline-block">
+                <!-- aggiungere immagine statica timer -->
+                <p>Timer</p>
+            </div>
+        </header>
+        <main>
+            <h2>Titolo domanda</h2>
+            <div id="questions-box">
+                <!-- contenitore domande -->
+                <div class="inline-block"><p>Testo</p></div>
+                <div class="inline-block"><p>Testo</p></div>
+                <div class="inline-block"><p>Testo</p></div>
+                <div class="inline-block"><p>Testo</p></div>
+            </div>
+            <div id="counter">
+                <!-- counter domande -->
+                <h6>QUESTION</h6>
+            </div>
+        </main>
+    </body>
 </html>
