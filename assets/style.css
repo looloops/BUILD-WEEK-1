@@ -1,10 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-image: url(./img/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
     font-family: 'Inter', sans-serif;
-    box-sizing: border-box;
     font-size: 16px;
 
 }
@@ -40,6 +45,18 @@ h2 {
     font-weight: bold;
 }
 
-.inline-box {
+.inline-block {
     display: inline-block;
+}
+
+.vertical-align {
+    vertical-align: middle;
+}
+
+.center {
+    text-align: center;
+}
+
+.margin-bottom {
+    margin-block-end: 40px
 }

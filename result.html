@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assets/reset.css">
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/result.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Outfit:wght@400;700&display=swap"
@@ -18,25 +19,41 @@
         <img class="logo" src="./assets/img/epicode_logo.png" alt="logo epicode">
     </header>
 
-    <main>
-        <div>
+    <main class="center">
+        <div class="margin-bottom">
             <h2 class=" text-bold">Results</h2>
-            <p>The summary of your amswers</p>
+            <p>The summary of your answers</p>
         </div>
 
         <div>
-            <div class="inline-block">
+            <div class="correct inline-block vertical-align">
                 <h2>Correct</h2>
-                <p class="text-bold">Percentuale</p>
+                <h2 class="text-bold">40%</h2>
                 <p>45</p>
             </div>
 
-            <div class="inline-block">
-                Text
+            <div class=" inline-block vertical-align">
+                <div class="progress-ring margin-bottom">
+                    <div class="outer-ring">
+                        <div class="inner-ring">
+                            <div id="text-inside-circle">
+                                <!-- inserire un IF qui -->
+                                <h6>Congratulations!
+                                    <span>You have passed the exam.</span>
+                                </h6>
+                                <p>We'll send you the certificate in few minutes. Check out your email (including
+                                    promotions / spam
+                                    folder).</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
-            <div class="inline-block">
+            <div class="wrong inline-block vertical-align">
                 <h2>Wrong</h2>
-                <p class="text-bold">Percentuale</p>
+                <h2 class="text-bold">60%</h2>
                 <p>55</p>
             </div>
         </div>
