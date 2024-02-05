@@ -22,6 +22,7 @@ span {
     display: inline-block;
 }
 
-title-fonts {
+.title-font {
     font-family: 'Outfit', sans-serif;
 }
+
