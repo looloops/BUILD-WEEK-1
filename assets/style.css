@@ -6,23 +6,40 @@ body {
     font-family: 'Inter', sans-serif;
     box-sizing: border-box;
     font-size: 16px;
+
+}
+
+header {
+    max-width: 800px;
+    padding: 20px;
+    margin: auto;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Outfit', sans-serif;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Outfit', sans-serif;
 }
 
 .logo {
     width: 9em;
-    padding-left: 56px;
     padding-block: 20px;
 }
 
-span {
+.text-bold {
     font-weight: bold;
 }
 
-.inline-block {
+.inline-box {
     display: inline-block;
 }
-
-.title-font {
-    font-family: 'Outfit', sans-serif;
-}
-
