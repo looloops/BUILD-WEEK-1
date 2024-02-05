@@ -1,0 +1,94 @@
+body {
+  background-image: url(./img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.logo {
+  width: 9em;
+  padding-left: 56px;
+  padding-block: 20px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.title-font {
+  font-family: "Outfit", sans-serif;
+}
+
+/*WELCOME PAGE*/
+.container {
+  margin: 0 7%;
+  margin-top: 3%;
+}
+
+h1 {
+  font-family: "outfit", sans-serif;
+  font-size: 6em;
+  line-height: 0.8em;
+  margin-top: 0.8em;
+  margin: bottom 0.5em;
+  font-weight: 400;
+}
+
+#colour-purple {
+  color: #c2128d;
+}
+
+section.instructions {
+  margin-top: 3.8em;
+}
+
+.instructionTitle {
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: "Outfit", sans-serif;
+}
+
+.instructionParagraph {
+  font-size: 1.4em;
+}
+
+.instructionList ul {
+}
+
+li {
+  line-height: 1.8em;
+  font-size: 1.4em;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  width: 2em;
+  height: 2em;
+  border: 0.15em solid white;
+  border-radius: 0.15em;
+}
+
+/* elementi bottone blu */
+.blueButton {
+  color: #232b5e;
+  background-color: #00ffff;
+  border: 1px solid #00ffff;
+  padding: 15px 70px;
+  font-size: 1.6em;
+  font-weight: bold;
+  cursor: pointer;
+  filter: drop-shadow(0 0 15px #00ffff) drop-shadow(0 0 50px #00ffff) contrast(2) brightness(2);
+}
+
+.blueButton:hover {
+  color: #232b5e;
+  background-color: #d20094;
+  filter: drop-shadow(0 0 20px #d20094) contrast(2) brightness(2);
+}

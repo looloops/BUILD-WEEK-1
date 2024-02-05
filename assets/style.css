@@ -33,6 +33,10 @@ h2 {
 
 .logo {
     width: 9em;
+<<<<<<< Updated upstream
+=======
+    
+>>>>>>> Stashed changes
     padding-block: 20px;
 }
 
@@ -42,4 +46,14 @@ h2 {
 
 .inline-box {
     display: inline-block;
+<<<<<<< Updated upstream
 }
+=======
+}
+
+.title-font {
+    font-family: 'Outfit', sans-serif;
+}
+
+
+>>>>>>> Stashed changes
