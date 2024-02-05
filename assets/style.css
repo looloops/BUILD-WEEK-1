@@ -5,6 +5,7 @@ body {
     color: white;
     font-family: 'Inter', sans-serif;
     box-sizing: border-box;
+    font-size: 16px;
 }
 
 .logo {
@@ -19,4 +20,8 @@ span {
 
 .inline-block {
     display: inline-block;
+}
+
+title-fonts {
+    font-family: 'Outfit', sans-serif;
 }
