@@ -1,0 +1,43 @@
+/* PAGINA RISULTATI css ring */
+.progress-ring {
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+.outer-ring {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 1px solid orange;
+    padding: 40px;
+}
+
+.inner-ring {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    border: 1px solid orange;
+}
+
+#text-inside-circle {
+    width: 100px;
+    padding-block: 42px;
+    margin: auto;
+}
+
+#text-inside-circle p,
+h6 {
+    font-size: 10px;
+
+}
+
+.correct {
+    text-align: left;
+    padding-inline-end: 40px;
+}
+
+.wrong {
+    text-align: right;
+    padding-inline-start: 40px;
+}
