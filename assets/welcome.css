@@ -27,7 +27,9 @@
     width: 9.375em;
     padding-bottom: 3.125em;
 } */
-
+span {
+  font-weight: bolder;
+}
 #purple {
     color: #c2128d;
 }
