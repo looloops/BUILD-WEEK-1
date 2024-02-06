@@ -86,8 +86,8 @@ body {
   .custom-checkbox {
     cursor: pointer;
     display: inline-block;
-    width: 19px;
-    height: 19px;
+    width: 15px;
+    height: 15px;
     background-color: #16183e;
     background-position: center;
     border: 4px solid white;
