@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assets/reset.css">
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/result.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Outfit:wght@400;700&display=swap"
@@ -32,12 +33,12 @@
             </div>
 
             <div class="inline-block vertical-align">
-                <div class="progress-ring">
-                    <div class="outer-ring">
-                        <div class="inner-ring"></div>
-                    </div>
 
-                </div>
+                <svg class="progress-ring" height="250" width="250">
+                    <circle class="correct-circle" stroke-width="40" fill="transparent" r="105" cx="125" cy="125" />
+                    <circle class="wrong-circle" stroke-width="40" fill="transparent" r="105" cx="125" cy="125" />
+
+                </svg>
                 <div id="text-inside-circle"> <!-- inserire un IF qui -->
                     <h6>Congratulations!
                         <span>You have passed the exam.</span>
