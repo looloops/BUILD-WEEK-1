@@ -19,9 +19,8 @@ body {
 }
 
 .logoEpicode {
-    width: 17%;
-    margin-top: 2%;
-    margin-bottom: 2.5%;
+    width: 9em;
+    padding-block: 20px;
 }
 
 .logoEpicode img {
