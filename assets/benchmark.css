@@ -11,6 +11,7 @@ svg circle {
     from {
         stroke-dashoffset: 0px;
     }
+
     to {
         stroke-dashoffset: 283px;
     }
@@ -44,10 +45,6 @@ svg circle {
     margin-top: 4rem;
 }
 
-.logo-div {
-    display: inline-block;
-    width: 85%;
-}
 
 .options-btn {
     padding: 1.2rem 2.2rem;

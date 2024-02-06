@@ -35,6 +35,11 @@ h2 {
     padding-block: 20px;
 }
 
+.logo-div {
+    display: inline-block;
+    width: 85%;
+}
+
 .text-bold {
     font-weight: bold;
 }
