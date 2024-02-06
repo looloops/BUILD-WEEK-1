@@ -1,10 +1,10 @@
-svg circle {
+#timer-svg {
     stroke-dasharray: 283;
     stroke-dashoffset: 0;
     stroke-width: 10;
-    stroke: #00ffff;
+    stroke: #96689b;
     fill: none;
-    animation: countdown 30s linear;
+    animation: countdown 30s linear alternate-reverse;
 }
 
 @keyframes countdown {
