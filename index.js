@@ -11,6 +11,7 @@ function illumina() {
     }
 }
 
+
 document.getElementById("proceedButton").addEventListener("click", function() {
     window.location.href = './benchmark.html';
 });
