@@ -1,24 +1,14 @@
 /* PAGINA RISULTATI css ring */
-.progress-ring {
-    width: 250px;
-    height: 250px;
-    position: relative;
+.progress-ring__circle {
+    stroke-dasharray: 659.7344572538565800771551104887;
+    transition: 0.35s stroke-dashoffset;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    stroke-dashoffset: 100;
 }
 
-.outer-ring {
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
-    border: 1px solid orange;
-    padding: 40px;
-}
+/* circumference = radius * 2 * PI = 659,4 */
 
-.inner-ring {
-    height: 170px;
-    width: 170px;
-    border-radius: 50%;
-    border: 1px solid orange;
-}
 
 #text-inside-circle {
     width: 100px;
