@@ -1,10 +1,10 @@
 /* PAGINA RISULTATI css ring */
 .progress-ring__circle {
-    stroke-dasharray: 659.7344572538565800771551104887;
+    stroke-dasharray: 360;
     transition: 0.35s stroke-dashoffset;
     transform: rotate(-90deg);
     transform-origin: 50% 50%;
-    stroke-dashoffset: 100;
+    stroke-dashoffset: ;
 }
 
 /* circumference = radius * 2 * PI = 659,4 */
