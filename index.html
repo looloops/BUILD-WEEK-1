@@ -1,88 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome</title>
+    <link rel="stylesheet" href="./assets/reset.css" />
+    <link rel="stylesheet" href="./assets/welcome.css" />
+  </head>
+  <body>
+    <div class="welcomeContainer">
+      <header >
+        <img class="logoEpicode" src="./assets/img/epicode_logo.png" alt="logo_epicode" />
+      </header>
+      <main>
+        <h1>Welcome to<br /><b>your exam</b></h1>
+        <section class="instructions">
+          <h2 id="purple">Instructions</h2>
+          <p>
+            We don't expect most engineers to know the answers to all of these<br />
+            questions, so don't worry if you're unsure of a few of them.
+          </p>
+          <ul>
+            <li>Each question is <b>timed </b>and can only be <b>answered once.</b></li>
+            <li>Changing browser tab or opening other windows will <b>invalidate the question.</b></li>
+            <li>This exam will take approx. <b>0-5 minutes.</b></li>
+          </ul>
+        </section>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exam</title>
-    <link rel="stylesheet" href="./assets/reset.css">  
-    <link rel="stylesheet" href="./assets/welcome.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Outfit:wght@400;700&display=swap"
-        rel="stylesheet">
-     
-</head>
-
-<body>
-
-    <div class="container ">
-        <header>
-            <!--LOGO-->
-            <img class="logo" src="./assets/img/epicode_logo.png" alt="logo epicode">
-        </header>
-    
-        <main>
-            
-            <h1>Welcome to <br>
-                <span>your exam</span>
-            </h1>
-    
-                
-            <section class="instructions">
-    
-                <h2 class="instructionTitle" id="colour-purple" >Instructions</h2>
-                <p class="instructionParagraph">We don't expect most engineers to know the answer to all of these questions, so don't worry if you're
-                    unsure of a few of them.</p>
-            
-            </section>
-                
-                
-    
-    
-    
-            <section>
-                <ul class="instructionList">
-                    <li>Each question is <span> timed</span> and can only be <span> answered once</span>.</li>
-                    <li>Changing browser tab or opening other windows will <span> invalidate the question</span>.</li>
-                    <li>This exam will take approx. <span> 0-5 minutes</span>.</li>
-                </ul>
-            </section>
-            
-            <div>
-<<<<<<< Updated upstream
-                <h1>Welcome to <span class="text-bold">your exam</span></h1>
-                <h4>Instructions</h4>
-                <p>We don't expect most engineers to know th eanswer to all of these questions, so don't worry if you're
-                    unsure of a few of them</p>
-            </div>
+        <div class="procedi">
+          <div class="bottom">
+            <input type="checkbox" id="myCheckbox" required onchange="brightColour()" />
+            <label for="myCheckbox" class="custom-checkbox"></label>
+            <p>I promise to answer myself without help from anyone</p>
+          </div>
+          <button id="proceedButton">PROCEED</button>
         </div>
-        <div>
-            <ul>
-                <li>Each question is <span class="text-bold">timed</span> and can only be <span>answered once</span>.
-                </li>
-                <li>Changing browser tab or opening other windows will <span class="text-bold">invalidate the
-                        question</span>.</li>
-                <li>This exam will take approx. <span class="text-bold">0-5 minutes</span>.</li>
-            </ul>
-        </div>
-        <div>
-            <p class="inline-block">I promise to answer myself without the help from anyone</p>
-            <button class="inline-block">PROCEED</button>
-        </div>
-    </main>
-=======
-                <form>
-                    <!--CheckBox-->
-                    <input type="checkbox" class="inline-block">I promise to answer myself without the help from anyone</input>
-                    <!--Button Proceed-->
-                     <button id="proceedButton" class="inline-block"><a href="benchmark.html"></a> PROCEED</button></a>
-                </form>
-            </div>
-        </main>
+      </main>
     </div>
->>>>>>> Stashed changes
 
-</body>
-
+    <script src="./index.js"></script>
+  </body>
 </html>

@@ -1,94 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
 body {
-  background-image: url(./img/bg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: white;
-  font-family: "Inter", sans-serif;
-  box-sizing: border-box;
-  font-size: 16px;
+    margin: 0;
+    background-image: url(./img/bg.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    background-attachment: fixed;
+    background-position: left;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+/* WELCOME PAGE*/
+.welcomeContainer {
+    margin: 0 8%;
+    margin-top: 3%;
 }
 
-.logo {
-  width: 9em;
-  padding-left: 56px;
-  padding-block: 20px;
+.logoEpicode {
+    width: 17%;
+    margin-top: 2%;
+    margin-bottom: 2.5%;
 }
 
-span {
+.logoEpicode img {
+    width: 9.375em;
+    padding-bottom: 3.125em;
+}
+
+#purple {
+    color: #c2128d;
+}
+
+.welcomeContainer h1 {
+    font-family: "Outfit", sans-serif;
+    font-size: 5em;
+    line-height: 0.8em;
+    margin-top: 0.8em;
+    margin-bottom: 0.5em;
+    font-weight: 400;
+}
+
+  
+.instructions h2 {
+    font-size: 182%;
+    font-weight: 700;
+    font-family: "Outfit", sans-serif;
+    margin: 0;
+    margin-bottom: 15px;
+}
+  
+.instructions p {
+    font-size: 100%m; 
+    padding-bottom: 2%;
+    margin-top: 0.7%;
+  
+  }
+  
+.instructions ul {
+    margin: 1em 0 3em 0;
+    margin-left: 25px;
+}
+  
+.instructions li {
+    line-height: 1.8em;
+    font-size: 100%;
+}
+
+  .procedi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4em;
+    width: 90%;
+    margin-bottom: 8em;
+  }
+  
+  .bottom {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .custom-checkbox {
+    cursor: pointer;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #16183e;
+    background-position: center;
+    border: 4px solid white;
+    
+  }
+  
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+  input[type="checkbox"]:checked+.custom-checkbox {
+    background-image: url(./img/image_processing20200511-10310-15y6mf2.png);
+    background-position: center;
+    background-size: contain;
+    background-color: #226699;
+    background-repeat: no-repeat;
+}
+
+.bottom p {
+    display: inline;
+    font-size: 100%;
+    font-weight:bold;
+    padding-left: 1em;
+}
+
+button {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.1rem;
+  padding: 0.8rem 2.8rem;
+  background-color: #00FFFF;
+  border: 0;
+  box-shadow: 0 0 25px rgb(0, 255, 255);
   font-weight: bold;
+  color: #0b113b;
 }
 
-.inline-block {
-  display: inline-block;
-}
-
-.title-font {
-  font-family: "Outfit", sans-serif;
-}
-
-/*WELCOME PAGE*/
-.container {
-  margin: 0 7%;
-  margin-top: 3%;
-}
-
-h1 {
-  font-family: "outfit", sans-serif;
-  font-size: 6em;
-  line-height: 0.8em;
-  margin-top: 0.8em;
-  margin: bottom 0.5em;
-  font-weight: 400;
-}
-
-#colour-purple {
-  color: #c2128d;
-}
-
-section.instructions {
-  margin-top: 3.8em;
-}
-
-.instructionTitle {
-  font-size: 1.5em;
-  font-weight: 700;
-  font-family: "Outfit", sans-serif;
-}
-
-.instructionParagraph {
-  font-size: 1.4em;
-}
-
-.instructionList ul {
-}
-
-li {
-  line-height: 1.8em;
-  font-size: 1.4em;
-}
-
-input[type="checkbox"] {
-  appearance: none;
-  width: 2em;
-  height: 2em;
-  border: 0.15em solid white;
-  border-radius: 0.15em;
-}
-
-/* elementi bottone blu */
-.blueButton {
-  color: #232b5e;
-  background-color: #00ffff;
-  border: 1px solid #00ffff;
-  padding: 15px 70px;
-  font-size: 1.6em;
-  font-weight: bold;
-  cursor: pointer;
-  filter: drop-shadow(0 0 15px #00ffff) drop-shadow(0 0 50px #00ffff) contrast(2) brightness(2);
-}
-
-.blueButton:hover {
-  color: #232b5e;
-  background-color: #d20094;
-  filter: drop-shadow(0 0 20px #d20094) contrast(2) brightness(2);
+button:hover {
+  box-shadow: 0 0 35px #00FFFF;
+  transition: 400ms;
+} 
+  
+.buttonChecked{
+    color: #0b113b;
+    padding: 0.6em 1.8em;
+    margin-left: 20%;
+    font-weight: bold;
+    background-color: #00FFFF;
+    font-size: 148%;
+    box-shadow: 0px 0px 20px 10px #00feff4d;
+    border: transparent;
 }
