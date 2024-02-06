@@ -1,3 +1,21 @@
+svg circle {
+    stroke-dasharray: 283;
+    stroke-dashoffset: 0;
+    stroke-width: 10;
+    stroke: #00ffff;
+    fill: none;
+    animation: countdown 30s linear;
+}
+
+@keyframes countdown {
+    from {
+        stroke-dashoffset: 0px;
+    }
+    to {
+        stroke-dashoffset: 283px;
+    }
+}
+
 #seconds-num {
     font-size: 2rem;
     font-weight: bold;
@@ -5,27 +23,25 @@
 }
 
 #timer {
-    border: 10px solid #00ffff;
-    border-radius: 50%;
     padding: 1rem;
-    width: 50px;
-    aspect-ratio: 1/1;
-    display: inline-block;
+    display: inline;
     text-align: center;
-    vertical-align: middle;
-    font-size: 0.4rem;
+    position: absolute;
 }
 
 #counter {
     margin-top: 6rem;
     text-align: center;
-    font-weight: bold;
+}
+
+#questions-total {
+    color: #d20094;
 }
 
 .question {
     text-align: center;
     margin-bottom: 4rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 .logo-div {
@@ -34,21 +50,20 @@
 }
 
 .options-btn {
-    /* background-color: rgba(35, 41, 79, 0.2); */
     padding: 1.2rem 2.2rem;
     color: white;
     font-weight: bold;
     border-radius: 30px;
     width: 100%;
     cursor: pointer;
-    background: linear-gradient(rgba(31, 37, 78, 0) 0 0) padding-box,
-        linear-gradient(to bottom, #f3f0f4, #75727322) border-box;
+    background: linear-gradient(#23294f 0 0) padding-box, linear-gradient(to bottom, #f3f0f4, #393b44) border-box;
     border: 3px solid transparent;
 }
 
 .options-btn:hover {
     background: linear-gradient(#d20094 0 0) padding-box, linear-gradient(to bottom, #f3f0f4, #dd29a7) border-box;
     border: 3px solid transparent;
+    transition: 0.3s ease-in-out;
 }
 
 .options-btn:focus {
