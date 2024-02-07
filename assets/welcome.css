@@ -89,6 +89,14 @@ input[type="checkbox"]:checked + .custom-checkbox {
 }
 
 /* .buttonChecked {
+    font-family: "Outfit", sans-serif;
+    width: 164px;
+    line-height: 39px;
+    background-color: #00ffff;
+    border: 1px transparent;
+    box-shadow: 0 0 25px rgb(0, 255, 255);
+    font-weight: bold;
+    color: #0b113b;
     color: #0b113b;
     padding: 0.6em 1.8em;
     margin-left: 20%;
@@ -97,4 +105,14 @@ input[type="checkbox"]:checked + .custom-checkbox {
     font-size: 148%;
     box-shadow: 0px 0px 20px 10px #00feff4d;
     border: transparent;
+
 } */
+
+#proceedButton:disabled {
+    border: 1px solid;
+    width: 164px;
+    line-height: 39px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
