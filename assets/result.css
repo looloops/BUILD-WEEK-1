@@ -8,7 +8,7 @@
     transition: 0.35s stroke-dashoffset;
     transform: rotate(-90deg);
     transform-origin: 50% 50%;
-    stroke: #00FFFF;
+    stroke: #00ffff;
 }
 
 .wrong-circle {
@@ -17,7 +17,7 @@
     transition: 0.35s stroke-dashoffset;
     transform: rotate(-90deg);
     transform-origin: 50% 50%;
-    stroke: #C2128D;
+    stroke: #c2128d;
 }
 
 /* circumference = radius * 2 * PI = 659,4 */
@@ -49,15 +49,16 @@
     font-size: 9px;
 }
 
-
 .correct {
     text-align: left;
     padding-inline-end: 40px;
+    width: 200px;
 }
 
 .wrong {
     text-align: right;
     padding-inline-start: 40px;
+    width: 200px;
 }
 
 button {
