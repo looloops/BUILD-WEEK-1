@@ -1,53 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Welcome</title>
+        <link rel="icon" type="image/x-icon" href="./assets/img/favicon-32x32.png" />
+        <link rel="stylesheet" href="./assets/reset.css" />
+        <link rel="stylesheet" href="./assets/welcome.css" />
+        <link rel="stylesheet" href="./assets/style.css" />
+    </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Welcome</title>
-  <link rel="stylesheet" href="./assets/reset.css" />
-  <link rel="stylesheet" href="./assets/welcome.css" />
-  <link rel="stylesheet" href="./assets/style.css">
-</head>
+    <body>
+        <header>
+            <div class="logo-div">
+                <img class="logo" src="./assets/img/epicode_logo.png" alt="logo epicode" />
+            </div>
+            <!-- togliere padding header -->
+        </header>
+        <main>
+            <h1>Welcome to<br /><span class="text-bold">your exam</span></h1>
+            <section class="instructions">
+                <h2 id="purple">Instructions</h2>
+                <p>
+                    We don't expect most engineers to know the answers to all of these<br />
+                    questions, so don't worry if you're unsure of a few of them.
+                </p>
+                <ul>
+                    <li>
+                        Each question is <span class="text-bold">timed</span> and can only be
+                        <span class="text-bold">answered once</span>.
+                    </li>
+                    <li>
+                        Changing browser tab or opening other windows will
+                        <span class="text-bold">invalidate the question</span>.
+                    </li>
+                    <li>This exam will take approx. <span class="text-bold">0-5 minutes</span>.</li>
+                </ul>
+            </section>
 
-<body>
+            <div class="procedi">
+                <div class="bottom">
+                    <input type="checkbox" id="myCheckbox" required onchange="brightColour()" />
+                    <label for="myCheckbox" class="custom-checkbox"></label>
+                    <p>I promise to answer myself without help from anyone</p>
+                </div>
+                <button id="proceedButton" class="btn">PROCEED</button>
+            </div>
+        </main>
 
-  <header>
-    <div class="logo-div">
-      <img class="logo" src="./assets/img/epicode_logo.png" alt="logo epicode" />
-    </div>
-    <!-- togliere padding header -->
-  </header>
-  <main>
-    <h1>Welcome to<br /><span class="text-bold">your exam</span></h1>
-    <section class="instructions">
-      <h2 id="purple">Instructions</h2>
-      <p>
-        We don't expect most engineers to know the answers to all of these<br />
-        questions, so don't worry if you're unsure of a few of them.
-      </p>
-      <ul>
-        <li>Each question is <span class="text-bold">timed</span> and can only be <span class="text-bold">answered
-            once</span>.
-        </li>
-        <li>Changing browser tab or opening other windows will <span class="text-bold">invalidate the question</span>.
-        </li>
-        <li>This exam will take approx. <span class="text-bold">0-5 minutes</span>.</li>
-      </ul>
-    </section>
-
-    <div class="procedi">
-      <div class="bottom">
-        <input type="checkbox" id="myCheckbox" required onchange="brightColour()" />
-        <label for="myCheckbox" class="custom-checkbox"></label>
-        <p>I promise to answer myself without help from anyone</p>
-      </div>
-      <button id="proceedButton">PROCEED</button>
-    </div>
-  </main>
-
-
-  <script src="./js/index.js"></script>
-</body>
-
+        <script src="./js/index.js"></script>
+    </body>
 </html>

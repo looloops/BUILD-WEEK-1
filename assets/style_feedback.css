@@ -5,74 +5,59 @@
 } */
 
 .mainFeedback {
-  text-align: center;
-  margin-top: 36px;
-  font-family: "Outfit";
+    text-align: center;
+    margin-top: 36px;
+    font-family: "Outfit";
 }
 
 .h2Feedback {
-  font-size: 41px;
-  margin-bottom: 14px;
+    font-size: 41px;
+    margin-bottom: 14px;
 }
 
 .starsContainer {
-  margin-bottom: 55px;
+    margin-bottom: 55px;
 }
 .starSvg {
-  margin-left: 10px;
-  width: 38px;
-  cursor: pointer;
+    margin-left: 10px;
+    width: 38px;
+    cursor: pointer;
 }
 
 .greyStar {
-  filter: brightness(11%);
-  /* per stelle grigie */
-  /* filter: grayscale(1); */
-  margin-left: 10px;
-  width: 38px;
-  cursor: pointer;
+    filter: brightness(11%);
+    /* per stelle grigie */
+    /* filter: grayscale(1); */
+    margin-left: 10px;
+    width: 38px;
+    cursor: pointer;
 }
 
 .from0 {
-  margin-bottom: 24px;
-  font-size: 21px;
+    margin-bottom: 24px;
+    font-size: 21px;
 }
 .pLeaveUs {
-  margin-bottom: 36px;
-  font-size: 21px;
+    margin-bottom: 36px;
+    font-size: 21px;
 }
 
 .btnFeedback {
-  display: block;
-  margin: auto;
-  margin-top: 41px;
-  width: 180px;
-  height: 52px;
-  font-family: "Outfit";
-  font-weight: bold;
-  background-color: #00ffff;
-  cursor: pointer;
-}
-.btnFeedback:hover {
-  box-shadow: 0 0 35px #00ffff;
-  transition: 400ms;
+    display: block;
+    margin: auto;
+    margin-top: 41px;
 }
 
 .inputFeedback {
-  margin-top: -10px;
-  background-color: transparent;
-  border: none;
-  border-bottom: 2px solid #d20094;
-  width: 521px;
-  color: gray;
-  text-align: left;
-  outline: none;
-  padding: 8px 23px;
-  font-family: "Outfit";
-  font-size: 16px;
-}
-.aFeedback {
-  text-decoration: none;
-  color: black;
-  font-size: 18px;
+    margin-top: -10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #d20094;
+    width: 521px;
+    color: gray;
+    text-align: left;
+    outline: none;
+    padding: 8px 23px;
+    font-family: "Outfit";
+    font-size: 16px;
 }

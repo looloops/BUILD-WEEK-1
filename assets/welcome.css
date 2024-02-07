@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-
 /* WELCOME PAGE*/
-
 
 /* .logoEpicode {
     width: 17%;
@@ -16,110 +14,87 @@
 } */
 
 #purple {
-  color: #c2128d;
+    color: #c2128d;
 }
 
 main h1 {
-  margin-bottom: 0.5em;
+    margin-bottom: 0.5em;
 }
 
-
-
-
 .instructions h2 {
-  font-size: 182%;
-  font-weight: 700;
-  font-family: "Outfit", sans-serif;
-  margin: 0;
-  margin-bottom: 15px;
+    font-size: 182%;
+    font-weight: 700;
+    font-family: "Outfit", sans-serif;
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 .instructions p {
-  font-size: 100%m;
-  padding-bottom: 2%;
-  margin-top: 0.7%;
-
+    font-size: 100%m;
+    padding-bottom: 2%;
+    margin-top: 0.7%;
 }
 
 .instructions ul {
-  margin: 1em 0 3em 0;
-  margin-left: 25px;
+    margin: 1em 0 3em 0;
+    margin-left: 25px;
 }
 
 .instructions li {
-  line-height: 1.8em;
-  font-size: 100%;
+    line-height: 1.8em;
+    font-size: 100%;
 }
 
 .procedi {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 4em;
-  width: 103%;
-  margin-bottom: 8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4em;
+    width: 103%;
+    margin-bottom: 8em;
 }
 
 .bottom {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
-
 .custom-checkbox {
-  cursor: pointer;
-  display: inline-block;
-  width: 17px;
-  height: 17px;
-  background-color: #16183e;
-  background-position: center;
-  border: 3px solid white;
-
+    cursor: pointer;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background-color: #16183e;
+    background-position: center;
+    border: 3px solid white;
 }
 
 input[type="checkbox"] {
-  display: none;
+    display: none;
 }
 
-input[type="checkbox"]:checked+.custom-checkbox {
-  background-image: url(./img/image_processing20200511-10310-15y6mf2.png);
-  background-position: center;
-  background-size: contain;
-  background-color: #226699;
-  background-repeat: no-repeat;
+input[type="checkbox"]:checked + .custom-checkbox {
+    background-image: url(./img/image_processing20200511-10310-15y6mf2.png);
+    background-position: center;
+    background-size: contain;
+    background-color: #226699;
+    background-repeat: no-repeat;
 }
 
 .bottom p {
-  display: inline;
-  font-size: 100%;
-  font-weight: bold;
-  padding-left: 1em;
+    display: inline;
+    font-size: 100%;
+    font-weight: bold;
+    padding-left: 1em;
 }
 
-button {
-  font-family: 'Outfit', sans-serif;
-  font-size: 1.1rem;
-  padding: 0.8rem 2.8rem;
-  background-color: #00FFFF;
-  border: 0;
-  box-shadow: 0 0 25px rgb(0, 255, 255);
-  font-weight: bold;
-  color: #0b113b;
-
-}
-
-button:hover {
-  box-shadow: 0 0 35px #00FFFF;
-  transition: 400ms;
-}
-
-.buttonChecked {
-  color: #0b113b;
-  padding: 0.6em 1.8em;
-  margin-left: 20%;
-  font-weight: bold;
-  background-color: #00FFFF;
-  font-size: 148%;
-  box-shadow: 0px 0px 20px 10px #00feff4d;
-  border: transparent;
-}
+/* .buttonChecked {
+    color: #0b113b;
+    padding: 0.6em 1.8em;
+    margin-left: 20%;
+    font-weight: bold;
+    background-color: #00ffff;
+    font-size: 148%;
+    box-shadow: 0px 0px 20px 10px #00feff4d;
+    border: transparent;
+} */
