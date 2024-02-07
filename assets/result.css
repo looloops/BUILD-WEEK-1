@@ -61,14 +61,6 @@
     width: 200px;
 }
 
-button {
-    border: 1px solid;
-    width: 164px;
-    line-height: 39px;
-    background: transparent;
-    color: white;
-}
-
 .margin-bottom {
     margin-block-end: 40px;
 }
