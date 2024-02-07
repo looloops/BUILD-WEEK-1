@@ -61,6 +61,7 @@ h2 {
     line-height: 39px;
     background: transparent;
     color: white;
+    cursor: pointer;
 }
 
 .btn:hover {
