@@ -1,4 +1,8 @@
 /* PAGINA RISULTATI css ring */
+.main-result {
+    text-align: center;
+}
+
 .correct-circle {
     stroke-dasharray: 659.7344572538565800771551104887;
     transition: 0.35s stroke-dashoffset;
@@ -18,15 +22,25 @@
 
 /* circumference = radius * 2 * PI = 659,4 */
 
+.text-div-relative {
+    position: relative;
+}
+
+.text-div-absolute {
+    padding-block: 84px;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 0;
+}
 
 #text-inside-circle {
-    width: 100px;
-    padding-block: 42px;
-    margin: auto;
+    display: inline-block;
 }
 
 #text-inside-circle p,
 h6 {
+    width: 100px;
     font-size: 10px;
 
 }
@@ -39,4 +53,16 @@ h6 {
 .wrong {
     text-align: right;
     padding-inline-start: 40px;
+}
+
+button {
+    border: 1px solid;
+    width: 164px;
+    line-height: 39px;
+    background: transparent;
+    color: white;
+}
+
+.margin-bottom {
+    margin-block-end: 40px;
 }
