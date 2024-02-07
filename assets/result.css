@@ -1,33 +1,46 @@
 /* PAGINA RISULTATI css ring */
-.progress-ring {
-    width: 250px;
-    height: 250px;
+.main-result {
+    text-align: center;
+}
+
+.correct-circle {
+    stroke-dasharray: 659.7344572538565800771551104887;
+    transition: 0.35s stroke-dashoffset;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    stroke: #00FFFF;
+}
+
+.wrong-circle {
+    stroke-dashoffset: 0%;
+    stroke-dasharray: 659.7344572538565800771551104887;
+    transition: 0.35s stroke-dashoffset;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    stroke: #C2128D;
+}
+
+/* circumference = radius * 2 * PI = 659,4 */
+
+.text-div-relative {
     position: relative;
 }
 
-.outer-ring {
+.text-div-absolute {
+    padding-block: 84px;
     height: 250px;
     width: 250px;
-    border-radius: 50%;
-    border: 1px solid orange;
-    padding: 40px;
-}
-
-.inner-ring {
-    height: 170px;
-    width: 170px;
-    border-radius: 50%;
-    border: 1px solid orange;
+    position: absolute;
+    top: 0;
 }
 
 #text-inside-circle {
-    width: 100px;
-    padding-block: 42px;
-    margin: auto;
+    display: inline-block;
 }
 
 #text-inside-circle p,
 h6 {
+    width: 100px;
     font-size: 10px;
 
 }
@@ -40,4 +53,16 @@ h6 {
 .wrong {
     text-align: right;
     padding-inline-start: 40px;
+}
+
+button {
+    border: 1px solid;
+    width: 164px;
+    line-height: 39px;
+    background: transparent;
+    color: white;
+}
+
+.margin-bottom {
+    margin-block-end: 40px;
 }

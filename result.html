@@ -19,41 +19,40 @@
         <img class="logo" src="./assets/img/epicode_logo.png" alt="logo epicode">
     </header>
 
-    <main class="center">
+    <main class="main-result">
         <div class="margin-bottom">
             <h2 class=" text-bold">Results</h2>
             <p>The summary of your answers</p>
         </div>
 
-        <div>
+        <div class="margin-bottom">
             <div class="correct inline-block vertical-align">
                 <h2>Correct</h2>
-                <h2 class="text-bold">40%</h2>
+                <p class="text-bold">Percentuale</p>
                 <p>45</p>
             </div>
 
-            <div class=" inline-block vertical-align">
-                <div class="progress-ring margin-bottom">
-                    <div class="outer-ring">
-                        <div class="inner-ring">
-                            <div id="text-inside-circle">
-                                <!-- inserire un IF qui -->
-                                <h6>Congratulations!
-                                    <span>You have passed the exam.</span>
-                                </h6>
-                                <p>We'll send you the certificate in few minutes. Check out your email (including
-                                    promotions / spam
-                                    folder).</p>
-                            </div>
-                        </div>
+            <div class="text-div-relative inline-block vertical-align">
+
+                <svg class="progress-ring" height="250" width="250">
+                    <circle class="correct-circle" stroke-width="40" fill="transparent" r="105" cx="125" cy="125" />
+                    <circle class="wrong-circle" stroke-width="40" fill="transparent" r="105" cx="125" cy="125" />
+
+                </svg>
+                <div class="text-div-absolute">
+                    <div id="text-inside-circle"> <!-- inserire un IF qui -->
+                        <h6>Congratulations!
+                            <span>You have passed the exam.</span>
+                        </h6>
+                        <p>We'll send you the certificate in few minutes. Check out your email (including promotions /
+                            spam
+                            folder).</p>
                     </div>
-
                 </div>
-
             </div>
             <div class="wrong inline-block vertical-align">
                 <h2>Wrong</h2>
-                <h2 class="text-bold">60%</h2>
+                <p class="text-bold">Percentuale</p>
                 <p>55</p>
             </div>
         </div>
