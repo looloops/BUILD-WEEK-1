@@ -35,6 +35,11 @@ h2 {
     padding-block: 20px;
 }
 
+.logo-div {
+    display: inline-block;
+    width: 85%;
+}
+
 .text-bold {
     font-weight: bold;
 }
@@ -45,4 +50,8 @@ h2 {
 
 .title-font {
     font-family: 'Outfit', sans-serif;
+}
+
+.vertical-align {
+    vertical-align: middle;
 }
