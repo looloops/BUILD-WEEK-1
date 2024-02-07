@@ -36,14 +36,19 @@
 
 #text-inside-circle {
     display: inline-block;
+    width: 133px;
+    line-height: 1.2;
 }
 
-#text-inside-circle p,
-h6 {
-    width: 100px;
+#text-inside-circle h6 {
     font-size: 10px;
-
+    margin-block-end: 14px;
 }
+
+#text-inside-circle p {
+    font-size: 9px;
+}
+
 
 .correct {
     text-align: left;

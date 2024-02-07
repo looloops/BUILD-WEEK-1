@@ -1,7 +1,7 @@
 const button = document.getElementById("proceedButton");
 const checkbox = document.getElementById("myCheckbox");
-
-/* function brightColour() {
+/* 
+function brightColour() {
     if (checkbox.checked) {
         button.disabled = false;
         button.classList.add("buttonChecked"); 
