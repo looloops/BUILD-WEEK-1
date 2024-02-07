@@ -82,15 +82,57 @@ const questions = [
     },
 ];
 
-let question = document.getElementById("question");
+const question = document.getElementById("question");
+const questionsBox = document.getElementById("questions-box");
 const qArray = [...questions];
+const allOptions = [];
 console.log(qArray);
-const randomQuestion = function () {
-    for (let i = 0; i < qArray.length; i++) {
-        let randomIndex = Math.floor(Math.random() * qArray.length);
-        question.innerText = qArray[randomIndex].question;
-        console.log(qArray[randomIndex].question);
-    }
+
+const randomI = function (arrRandom) {
+    const randomIndex = Math.floor(Math.random() * arrRandom.length);
+    return randomIndex;
 };
 
-randomQuestion();
+const randomQuestion = function (arrQuestion) {
+    const randomIndex = randomI(arrQuestion);
+    question.innerText = arrQuestion[randomIndex].question;
+    allOptions.push(arrQuestion[randomIndex].correct_answer);
+    for (let i = 0; i < arrQuestion[randomIndex].incorrect_answers.length; i++) {
+        allOptions.push(arrQuestion[randomIndex].incorrect_answers[i]);
+    }
+
+    console.log(allOptions);
+    const indexOption = randomI(allOptions);
+
+    if (arrQuestion[randomIndex].type === "multiple") {
+        // creazione button per le opzioni
+        const q1 = document.createElement("div");
+        const q2 = document.createElement("div");
+        const q3 = document.createElement("div");
+        const q4 = document.createElement("div");
+        const btn1 = document.createElement("button");
+        const btn2 = document.createElement("button");
+        const btn3 = document.createElement("button");
+        const btn4 = document.createElement("button");
+        questionsBox.appendChild(q1).appendChild(btn1).innerText = allOptions[indexOption];
+        questionsBox.appendChild(q2).appendChild(btn2);
+        questionsBox.appendChild(q3).appendChild(btn3);
+        questionsBox.appendChild(q4).appendChild(btn4);
+    } else {
+        const q1 = document.createElement("div");
+        const q2 = document.createElement("div");
+        const btn1 = document.createElement("button");
+        const btn2 = document.createElement("button");
+        questionsBox.appendChild(q1).appendChild(btn1);
+        questionsBox.appendChild(q2).appendChild(btn2);
+    }
+
+    const qqArray = arrQuestion.splice([randomIndex], 1)[0];
+    return qqArray;
+};
+
+const assignOption = function () {};
+
+console.log(randomQuestion(qArray).question);
+
+// domani, giovedì, NON demoralizziamoci! Aggiungere splice per le opzioni risposte
