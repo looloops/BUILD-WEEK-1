@@ -35,14 +35,19 @@
     text-align: center;
 }
 
+#questions-box {
+    height: 200px;
+}
+
 #questions-total {
     color: #d20094;
 }
 
-.question {
+#question {
     text-align: center;
     margin-bottom: 4rem;
     margin-top: 4rem;
+    height: 90px;
 }
 
 .options-btn {
