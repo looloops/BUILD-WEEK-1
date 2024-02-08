@@ -36,7 +36,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    width: 700px;
+    margin-top: -50px;
+    margin-right: -170px;
 }
 
 #timer-container span {
@@ -46,6 +47,10 @@ body {
 #timer-text {
     position: absolute;
     font-family: "Outfit", sans-serif;
+}
+
+#quiz-container {
+    margin-top: 40px;
 }
 
 #question {
