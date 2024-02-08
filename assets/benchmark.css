@@ -31,7 +31,7 @@ body {
 }
 
 #quiz-container {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 #question {
@@ -43,18 +43,28 @@ body {
 
 input[type="radio"] {
     opacity: 0;
-    position: absolute;
+}
+
+input[type="radio"]:hover + label {
+    background: linear-gradient(#900080 0 0) padding-box, linear-gradient(to bottom, #f3f0f4, #dd29a7) border-box;
+    border: 3px solid transparent;
+    transition: 0.3s ease-in-out;
 }
 
 input[type="radio"]:checked + label {
-    background-image: linear-gradient(#d20094, #900080);
-    padding: 1em 0;
+    background: linear-gradient(#d20094 0 0) padding-box, linear-gradient(to bottom, #f3f0f4, #961d88) border-box;
+    border: 3px solid transparent;
 }
 
 .radio {
-    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1.2rem 2.2rem;
+    color: white;
+    font-size: 0.9rem;
     border-radius: 30px;
-    box-shadow: -0.5px -1.5px 5px;
+    width: 100%;
+    cursor: pointer;
+    background: linear-gradient(#23294f 0 0) padding-box, linear-gradient(to bottom, #f3f0f4, #393b44) border-box;
+    border: 3px solid transparent;
 }
 
 #answer-list {
@@ -81,7 +91,7 @@ input[type="radio"]:checked + label {
     color: white;
     border: none;
     padding: 0.5em;
-    margin: 1rem 18rem;
+    margin: 0.2rem 18rem;
     font-size: 1em;
     font-weight: 600;
     border-radius: 0.3em;
