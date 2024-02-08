@@ -164,6 +164,17 @@ document.addEventListener("DOMContentLoaded", (event) => {
     }
     updateTimerDisplay();
   });
+  //Funzione per randomizzare array con return di array nuovo randomizzato
+  const randomArr = function (arr) {
+    let arrIndex = [];
+    const mixedArray = [];
+    while (arr.length > 0) {
+      const randomIndex = Math.floor(Math.random() * arr.length);
+      mixedArray.push(arr[randomIndex]);
+      arr.splice(randomIndex, 1);
+    }
+    return mixedArray;
+  };
 
   // Funzione per mostrare la domanda
   function renderQuestion() {
