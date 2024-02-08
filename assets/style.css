@@ -1,97 +1,98 @@
 body {
-    background-image: url(./img/bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
+  background-image: url(./img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
 }
 
 header {
-    max-width: 800px;
-    padding: 20px;
-    margin: auto;
+  max-width: 800px;
+  padding: 20px;
+  margin: auto;
 }
 
 main {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
 }
 
 h1 {
-    font-size: 60px;
-    font-family: "Outfit", sans-serif;
+  font-size: 60px;
+  font-family: "Outfit", sans-serif;
 }
 
 h2 {
-    font-size: 50px;
-    font-family: "Outfit", sans-serif;
+  font-size: 50px;
+  font-family: "Outfit", sans-serif;
 }
 
 .logo {
-    width: 9em;
-    padding-block: 20px;
+  width: 9em;
+  padding-block: 20px;
 }
 
 .logo-div {
-    display: inline-block;
-    width: 85%;
+  display: inline-block;
+  width: 85%;
 }
 
 .text-bold {
-    font-weight: bold;
-} 
+  font-weight: bold;
+}
 
 .inline-block {
-    display: inline-block;
+  display: inline-block;
 }
 
 .title-font {
-    font-family: "Outfit", sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 
 .vertical-align {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 .btn {
-    border: 1px solid;
-    width: 164px;
-    line-height: 39px;
-    background: transparent;
-    color: white;
-    cursor: pointer;
+  border: 1px solid;
+  width: 164px;
+  line-height: 39px;
+  background: transparent;
+  color: white;
+  cursor: pointer;
 }
 
 .btn:hover {
-    font-family: "Outfit", sans-serif;
-    width: 164px;
-    line-height: 39px;
-    background-color: #00ffff;
-    border: 1px transparent;
-    box-shadow: 0 0 25px rgb(0, 255, 255);
-    font-weight: bold;
-    color: #0b113b;
+  font-family: "Outfit", sans-serif;
+  width: 164px;
+  line-height: 39px;
+  background-color: #00ffff;
+  border: 1px transparent;
+  box-shadow: 0 0 25px rgb(0, 255, 255);
+  font-weight: bold;
+  color: #0b113b;
 }
 
 .btn:focus {
-    font-family: "Outfit", sans-serif;
-    width: 164px;
-    line-height: 39px;
-    background-color: #00ffff;
-    border: 1px transparent;
-    box-shadow: 0 0 25px rgb(0, 255, 255);
-    font-weight: bold;
-    color: #0b113b;
+  font-family: "Outfit", sans-serif;
+  width: 164px;
+  line-height: 39px;
+  background-color: #00ffff;
+  border: 1px transparent;
+  box-shadow: 0 0 25px rgb(0, 255, 255);
+  font-weight: bold;
+  color: #0b113b;
 }
 
 .a-btn {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
+  font-family: "Outfit";
 }
 
 .a-btn:hover {
-    text-decoration: none;
-    color: #0b113b;
+  text-decoration: none;
+  color: #0b113b;
 }

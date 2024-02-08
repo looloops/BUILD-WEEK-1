@@ -1,76 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Questions</title>
-        <link rel="icon" type="image/x-icon" href="./assets/img/favicon-32x32.png" />
-        <link rel="stylesheet" href="./assets/reset.css" />
-        <link rel="stylesheet" href="./assets/style.css" />
-        <link rel="stylesheet" href="./assets/benchmark.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Outfit:wght@400;700&display=swap"
-            rel="stylesheet"
-        />
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Questions</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon-32x32.png" />
+    <link rel="stylesheet" href="./assets/reset.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/benchmark.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-    <body>
-        <header>
-            <div class="logo-div">
-                <img class="logo" src="./assets/img/epicode_logo.png" alt="logo epicode" />
-            </div>
-
-            <div id="timer">
-                <!-- aggiungere immagine statica timer -->
-                <svg width="100" height="100">
-                    <circle
-                        id="timer-circle"
-                        r="45"
-                        cx="50"
-                        cy="50"
-                        fill="transparent"
-                        stroke="#00ffff"
-                        stroke-width="9"
-                        stroke-dasharray="282.743"
-                        stroke-dashoffset="0"
-                        transform="rotate(-90 50 50)"
-                    ></circle>
-                    <circle id="timer-svg" r="45" cx="50" cy="50" transform="rotate(-90 50 50)"></circle>
-                    <text
-                        x="50%"
-                        y="35%"
-                        alignment-baseline="after-edge"
-                        text-anchor="middle"
-                        fill="#fff"
-                        font-size="8"
-                        class="small-text"
-                    >
-                        SECONDS
-                    </text>
-                    <text x="50%" y="50%" alignment-baseline="central" text-anchor="middle" font-size="30" fill="#fff">
-                        16
-                    </text>
-                    <text x="50%" y="75%" text-anchor="middle" fill="#fff" font-size="8" class="small-text">
-                        REMAINING
-                    </text>
-                </svg>
-            </div>
-        </header>
-        <main>
-            <h2 id="question" class="text-bold">Titolo domanda</h2>
-            <div id="questions-box">
-                <!-- contenitore domande -->
-                <!-- <div class="inline-block width-50">
-                    <button class="options-btn border-gradient">Option</button>
-                </div> -->
-            </div>
-            <div id="counter">
-                <!-- counter domande -->
-                <h6>QUESTION 1 <span id="questions-total">/ 10</span></h6>
-            </div>
-        </main>
-        <script src="./js/benchmark.js"></script>
-    </body>
+  <body>
+    <header>
+      <div class="logo-div">
+        <img class="logo" src="./assets/img/epicode_logo.png" alt="logo epicode" />
+        <div id="timer-container">
+          <span id="timer-text"></span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div id="quiz-container">
+        <div id="containerSecond">
+          <div id="question"></div>
+          <div id="answer-list"></div>
+        </div>
+      </div>
+      <div id="results-screen" style="display: none">
+        <div id="details-container"></div>
+      </div>
+    </main>
+    <script src="./js/benchmark.js"></script>
+  </body>
 </html>
