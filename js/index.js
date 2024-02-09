@@ -4,13 +4,13 @@ const checkbox = document.getElementById("myCheckbox");
 function brightColour() {
     if (checkbox.checked) {
         button.disabled = false;
-        button.classList.add("btn");  
+        button.classList.add("btn-checked");
     } else {
         button.disabled = true;
         button.classList.remove("btn");
-    } 
+    }
 }
 
-document.getElementById("proceedButton").addEventListener("click", function() {
-    window.location.href = './benchmark.html';
+document.getElementById("proceedButton").addEventListener("click", function () {
+    window.location.href = "./benchmark.html";
 });

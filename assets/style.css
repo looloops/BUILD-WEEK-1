@@ -1,102 +1,140 @@
 body {
-  background-image: url(./img/bg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: white;
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  overflow: hidden;
-  margin: 2rem auto;
+    background-image: url(./img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    overflow: hidden;
+    margin: 2rem auto;
 }
 
 header {
-  max-width: 800px;
-  padding: 20px;
-  margin: auto;
+    max-width: 800px;
+    padding: 20px;
+    margin: auto;
 }
 
 main {
-  max-width: 800px;
-  margin: auto;
-  padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
 }
 
 h1 {
-  font-size: 60px;
-  font-family: "Outfit", sans-serif;
+    font-size: 60px;
+    font-family: "Outfit", sans-serif;
 }
 
 h2 {
-  font-size: 50px;
-  font-family: "Outfit", sans-serif;
+    font-size: 50px;
+    font-family: "Outfit", sans-serif;
 }
 
 .logo {
-  width: 9em;
-  padding-block: 20px;
+    width: 9em;
+    padding-block: 20px;
 }
 
 .logo-div {
-  display: inline-block;
-  width: 85%;
+    display: inline-block;
+    width: 85%;
 }
 
 .text-bold {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .inline-block {
-  display: inline-block;
+    display: inline-block;
 }
 
 .title-font {
-  font-family: "Outfit", sans-serif;
+    font-family: "Outfit", sans-serif;
 }
 
 .vertical-align {
-  vertical-align: middle;
+    vertical-align: middle;
 }
 
 .btn {
-  border: 1px solid;
-  width: 164px;
-  line-height: 39px;
-  background: transparent;
-  color: white;
-  cursor: pointer;
+    border: 1px solid;
+    width: 164px;
+    line-height: 39px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
 }
 
 .btn:hover {
-  font-family: "Outfit", sans-serif;
-  width: 164px;
-  line-height: 39px;
-  background-color: #00ffff;
-  border: 1px transparent;
-  box-shadow: 0 0 25px rgb(0, 255, 255);
-  font-weight: bold;
-  color: #0b113b;
+    font-family: "Outfit", sans-serif;
+    width: 164px;
+    line-height: 39px;
+    background-color: #00ffff;
+    border: 1px transparent;
+    box-shadow: 0 0 25px rgb(0, 255, 255);
+    font-weight: bold;
+    color: #0b113b;
 }
 
 .btn:focus {
-  font-family: "Outfit", sans-serif;
-  width: 164px;
-  line-height: 39px;
-  background-color: #00ffff;
-  border: 1px transparent;
-  box-shadow: 0 0 25px rgb(0, 255, 255);
-  font-weight: bold;
-  color: #0b113b;
+    font-family: "Outfit", sans-serif;
+    width: 164px;
+    line-height: 39px;
+    background-color: #00ffff;
+    border: 1px transparent;
+    box-shadow: 0 0 25px rgb(0, 255, 255);
+    font-weight: bold;
+    color: #0b113b;
 }
 
 .a-btn {
-  text-decoration: none;
-  color: white;
-  font-family: "Outfit";
+    text-decoration: none;
+    color: white;
+    font-family: "Outfit";
 }
 
 .a-btn:hover {
-  text-decoration: none;
-  color: #0b113b;
+    text-decoration: none;
+    color: #0b113b;
+}
+
+#proceedButton:disabled {
+    border: 1px solid;
+    width: 164px;
+    line-height: 39px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    font-family: "Outfit", sans-serif;
+}
+
+#proceedButton:disabled:hover {
+    box-shadow: 0 0 25px rgb(0, 255, 255);
+    transition: 0.3s ease-in-out;
+}
+
+.btn-checked {
+    font-family: "Outfit", sans-serif;
+    width: 164px;
+    line-height: 39px;
+    background-color: #00ffff;
+    border: 1px transparent;
+    font-weight: bold;
+    color: #0b113b;
+    cursor: pointer;
+}
+
+.btn-checked:hover {
+    font-family: "Outfit", sans-serif;
+    width: 164px;
+    line-height: 39px;
+    background-color: #00ffff;
+    box-shadow: 0 0 25px rgb(0, 255, 255);
+    border: 1px transparent;
+    font-weight: bold;
+    color: #0b113b;
+    cursor: pointer;
 }
 
 /* WELCOME PAGE*/
@@ -113,82 +151,82 @@ h2 {
 } */
 
 #purple {
-  color: #c2128d;
+    color: #c2128d;
 }
 
 .welcomeMain h1 {
-  margin-bottom: 0.5em;
+    margin-bottom: 0.5em;
 }
 .welcomeMain {
-  margin-top: 15px;
-  padding: 0;
+    margin-top: 15px;
+    padding: 0;
 }
 
 .instructions h2 {
-  font-size: 182%;
-  font-weight: 700;
-  font-family: "Outfit", sans-serif;
-  margin: 0;
-  margin-bottom: 15px;
+    font-size: 182%;
+    font-weight: 700;
+    font-family: "Outfit", sans-serif;
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 .instructions p {
-  font-size: 100%m;
-  padding-bottom: 2%;
-  margin-top: 0.7%;
+    font-size: 100%m;
+    padding-bottom: 2%;
+    margin-top: 0.7%;
 }
 
 .instructions ul {
-  margin: 1em 0 3em 0;
-  margin-left: 25px;
+    margin: 1em 0 3em 0;
+    margin-left: 25px;
 }
 
 .instructions li {
-  line-height: 1.8em;
-  font-size: 100%;
+    line-height: 1.8em;
+    font-size: 100%;
 }
 
 .procedi {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 4em;
-  width: 103%;
-  margin-bottom: 8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4em;
+    width: 103%;
+    margin-bottom: 8em;
 }
 
 .bottom {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .custom-checkbox {
-  cursor: pointer;
-  display: inline-block;
-  width: 17px;
-  height: 17px;
-  background-color: #16183e;
-  background-position: center;
-  border: 3px solid white;
+    cursor: pointer;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background-color: #16183e;
+    background-position: center;
+    border: 3px solid white;
 }
 
 input[type="checkbox"] {
-  display: none;
+    display: none;
 }
 
 input[type="checkbox"]:checked + .custom-checkbox {
-  background-image: url(./img/image_processing20200511-10310-15y6mf2.png);
-  background-position: center;
-  background-size: contain;
-  background-color: #226699;
-  background-repeat: no-repeat;
+    background-image: url(./img/image_processing20200511-10310-15y6mf2.png);
+    background-position: center;
+    background-size: contain;
+    background-color: #226699;
+    background-repeat: no-repeat;
 }
 
 .bottom p {
-  display: inline;
-  font-size: 100%;
-  font-weight: bold;
-  padding-left: 1em;
+    display: inline;
+    font-size: 100%;
+    font-weight: bold;
+    padding-left: 1em;
 }
 
 /* .buttonChecked {
@@ -212,302 +250,329 @@ input[type="checkbox"]:checked + .custom-checkbox {
 } */
 
 #proceedButton:disabled {
-  border: 1px solid;
-  width: 164px;
-  line-height: 39px;
-  background: transparent;
-  color: white;
-  cursor: pointer;
-  font-family: "Outfit", sans-serif;
+    border: 1px solid;
+    width: 164px;
+    line-height: 39px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    font-family: "Outfit", sans-serif;
+}
+
+#proceedButton:disabled:hover {
+    box-shadow: 0 0 25px rgb(0, 255, 255);
+}
+
+.btn-checked {
+    font-family: "Outfit", sans-serif;
+    width: 164px;
+    line-height: 39px;
+    background-color: #00ffff;
+    border: 1px transparent;
+    font-weight: bold;
+    color: #0b113b;
+    cursor: pointer;
+}
+
+.btn-checked:hover {
+    font-family: "Outfit", sans-serif;
+    width: 164px;
+    line-height: 39px;
+    background-color: #00ffff;
+    box-shadow: 0 0 25px rgb(0, 255, 255);
+    border: 1px transparent;
+    font-weight: bold;
+    color: #0b113b;
+    cursor: pointer;
 }
 
 /* BENCHMARK E RESULT */
 
 .logo-div {
-  margin-left: -50px;
-  margin-top: -32px;
+    margin-left: -50px;
+    margin-top: -32px;
 }
 
 #timer-container {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  margin-top: -50px;
-  margin-right: -170px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: -50px;
+    margin-right: -170px;
 }
 
 #timer-container span {
-  margin-right: 2.5rem;
+    margin-right: 2.5rem;
 }
 
 #timer-text {
-  position: absolute;
-  font-family: "Outfit", sans-serif;
+    position: absolute;
+    font-family: "Outfit", sans-serif;
 }
 
 #quiz-container {
-  margin-top: 30px;
+    margin-top: 30px;
 }
 
 #question {
-  color: white;
-  font-size: 2.4rem;
-  margin-top: 1rem;
-  text-align: center;
+    color: white;
+    font-size: 2.4rem;
+    margin-top: 1rem;
+    text-align: center;
 }
 
 input[type="radio"] {
-  opacity: 0;
+    opacity: 0;
 }
 
 input[type="radio"]:hover + label {
-  background: linear-gradient(#900080 0 0) padding-box, linear-gradient(to bottom, #f3f0f4, #dd29a7) border-box;
-  border: 3px solid transparent;
-  transition: 0.3s ease-in-out;
+    background: linear-gradient(#900080 0 0) padding-box, linear-gradient(to bottom, #f3f0f4, #dd29a7) border-box;
+    border: 3px solid transparent;
+    transition: 0.3s ease-in-out;
 }
 
 input[type="radio"]:checked + label {
-  background: linear-gradient(#d20094 0 0) padding-box, linear-gradient(to bottom, #f3f0f4, #961d88) border-box;
-  border: 3px solid transparent;
+    background: linear-gradient(#d20094 0 0) padding-box, linear-gradient(to bottom, #f3f0f4, #961d88) border-box;
+    border: 3px solid transparent;
 }
 
 .radio {
-  padding: 1.2rem 2.2rem;
-  color: white;
-  font-size: 0.9rem;
-  border-radius: 30px;
-  width: 100%;
-  cursor: pointer;
-  background: linear-gradient(#23294f 0 0) padding-box, linear-gradient(to bottom, #f3f0f4, #393b44) border-box;
-  border: 3px solid transparent;
+    padding: 1.2rem 2.2rem;
+    color: white;
+    font-size: 0.9rem;
+    border-radius: 30px;
+    width: 100%;
+    cursor: pointer;
+    background: linear-gradient(#23294f 0 0) padding-box, linear-gradient(to bottom, #f3f0f4, #393b44) border-box;
+    border: 3px solid transparent;
 }
 
 #answer-list {
-  margin: 3rem 0;
-  display: flex;
-  flex-direction: column;
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .answer-group {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .answer-group label {
-  flex: 1 1 45%;
-  margin: 0.7rem 1rem;
-  padding: 1rem 0;
-  text-align: center;
-  cursor: pointer;
+    flex: 1 1 45%;
+    margin: 0.7rem 1rem;
+    padding: 1rem 0;
+    text-align: center;
+    cursor: pointer;
 }
 
 .nextButton {
-  background-color: transparent;
-  color: white;
-  border: none;
-  padding: 0.5em;
-  margin: 0.2rem 18rem;
-  font-size: 1em;
-  font-weight: 600;
-  border-radius: 0.3em;
-  box-shadow: 0 0 4px;
-  cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 0.5em;
+    margin: 0.2rem 18rem;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 0.3em;
+    box-shadow: 0 0 4px;
+    cursor: pointer;
 }
 
 .nextButton:hover {
-  background-color: #b5018b;
-  transition: 400ms;
+    background-color: #b5018b;
+    transition: 400ms;
 }
 
 .countAnswers {
-  display: block;
-  margin-top: 10px;
-  font-size: 1em;
-  color: white;
-  margin-top: 4rem;
-  letter-spacing: 0.2rem;
-  text-align: center;
+    display: block;
+    margin-top: 10px;
+    font-size: 1em;
+    color: white;
+    margin-top: 4rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
 }
 
 /* /// RISULTATI /// */
 
 /* Stile per il cerchio dei risultati*/
 #results-screen {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .correct {
-  text-align: left;
-  width: 150px;
+    text-align: left;
+    width: 150px;
 }
 .wrong {
-  text-align: right;
-  width: 150px;
+    text-align: right;
+    width: 150px;
 }
 
 #details-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  justify-content: space-evenly;
-  width: 100%;
-  margin-top: 20px;
-  margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 #results-screen h1 {
-  color: white;
-  font-size: 2.8rem;
-  font-weight: bold;
-  margin-top: 1rem;
+    color: white;
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-top: 1rem;
 }
 
 #results-screen h2 {
-  color: white;
-  font-size: 20px;
-  margin: 1rem;
+    color: white;
+    font-size: 20px;
+    margin: 1rem;
 }
 
 /* qui mettiamo li stili per il grafico e i contenuti scritti*/
 
 .winH,
 .loseH {
-  fill: white;
-  font-size: 0.8rem;
+    fill: white;
+    font-size: 0.8rem;
 }
 
 .cursore {
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  width: 200px;
-  height: 60px;
-  border-radius: 0%;
-  background-color: transparent;
-  box-shadow: 0 0 5px #00ffff;
-  margin-top: 3em;
-  border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 200px;
+    height: 60px;
+    border-radius: 0%;
+    background-color: transparent;
+    box-shadow: 0 0 5px #00ffff;
+    margin-top: 3em;
+    border: 2px solid white;
 }
 
 .cursore:hover {
-  background-color: #33ffff;
-  box-shadow: 0 0 35px #00ffff;
-  color: black;
-  transition: 400ms;
+    background-color: #33ffff;
+    box-shadow: 0 0 35px #00ffff;
+    color: black;
+    transition: 400ms;
 }
 
 .winP,
 .loseP {
-  fill: #33ffff;
-  font-size: 0.6rem;
-  font-weight: bold;
+    fill: #33ffff;
+    font-size: 0.6rem;
+    font-weight: bold;
 }
 
 .winP {
-  fill: #33ffff;
+    fill: #33ffff;
 }
 
 .loseP {
-  fill: #d20094;
+    fill: #d20094;
 }
 
 .secondP,
 .thirdP {
-  fill: white;
-  font-size: 0.6rem;
+    fill: white;
+    font-size: 0.6rem;
 }
 
 .thirdP {
-  font-size: 0.45rem;
+    font-size: 0.45rem;
 }
 
 .correctH,
 .incorrectH {
-  color: white;
-  font-family: "Inter", sans-serif;
-  font-size: 2.5rem;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 2.5rem;
 }
 
 .incorrectP,
 .correctP {
-  color: white;
-  font-size: 2.5rem;
-  font-weight: bold;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 .incorrectP2,
 .correctP2 {
-  color: white;
-  font-size: 1.1rem;
+    color: white;
+    font-size: 1.1rem;
 }
 
 #quiz-tooltip {
-  position: absolute;
-  background: linear-gradient(90deg, rgba(0, 255, 255, 1) 0%, rgba(0, 255, 255, 1) 30%, rgba(210, 0, 148, 1) 75%);
-  border: 1px solid #000;
-  padding: 5px;
-  border-radius: 5px;
-  display: none;
-  z-index: 1;
+    position: absolute;
+    background: linear-gradient(90deg, rgba(0, 255, 255, 1) 0%, rgba(0, 255, 255, 1) 30%, rgba(210, 0, 148, 1) 75%);
+    border: 1px solid #000;
+    padding: 5px;
+    border-radius: 5px;
+    display: none;
+    z-index: 1;
 }
 
 /* FEEDBACK */
 .mainFeedback {
-  text-align: center;
-  margin-top: 36px;
-  font-family: "Outfit";
+    text-align: center;
+    margin-top: 36px;
+    font-family: "Outfit";
 }
 
 .h2Feedback {
-  font-size: 41px;
-  margin-bottom: 14px;
+    font-size: 41px;
+    margin-bottom: 14px;
 }
 
 .starsContainer {
-  margin-bottom: 55px;
+    margin-bottom: 55px;
 }
 .starSvg {
-  margin-left: 10px;
-  width: 38px;
-  cursor: pointer;
+    margin-left: 10px;
+    width: 38px;
+    cursor: pointer;
 }
 
 .greyStar {
-  filter: brightness(11%);
-  /* per stelle grigie */
-  /* filter: grayscale(1); */
-  margin-left: 10px;
-  width: 38px;
-  cursor: pointer;
+    filter: brightness(11%);
+    /* per stelle grigie */
+    /* filter: grayscale(1); */
+    margin-left: 10px;
+    width: 38px;
+    cursor: pointer;
 }
 
 .from0 {
-  margin-bottom: 24px;
-  font-size: 21px;
+    margin-bottom: 24px;
+    font-size: 21px;
 }
 .pLeaveUs {
-  margin-bottom: 36px;
-  font-size: 21px;
+    margin-bottom: 36px;
+    font-size: 21px;
 }
 
 .btnFeedback {
-  display: block;
-  margin: auto;
-  margin-top: 41px;
+    display: block;
+    margin: auto;
+    margin-top: 41px;
 }
 
 .inputFeedback {
-  margin-top: -10px;
-  background-color: transparent;
-  border: none;
-  border-bottom: 2px solid #d20094;
-  width: 570px;
-  color: gray;
-  text-align: left;
-  outline: none;
-  padding: 8px 23px;
-  font-family: "Outfit";
-  font-size: 16px;
+    margin-top: -10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #d20094;
+    width: 570px;
+    color: gray;
+    text-align: left;
+    outline: none;
+    padding: 8px 23px;
+    font-family: "Outfit";
+    font-size: 16px;
 }
