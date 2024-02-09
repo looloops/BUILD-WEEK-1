@@ -256,10 +256,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
     const passingScore = 60;
 
     // calcolo circonferenze per i risultati
-    const radius = 90;
+    const radius = 80;
     const circumference = 2 * Math.PI * radius;
-    const correctOffset = circumference * (percentCorrect / 100);
-    // const incorrectOffset = circumference * (percentIncorrect / 100);
+    // const correctOffset = circumference * (percentCorrect / 100);
+    const incorrectOffset = circumference * (percentIncorrect / 100);
 
     // Nascondi il quiz container e mostra i risultati
     document.getElementById("quiz-container").style.display = "none";
@@ -276,12 +276,12 @@ document.addEventListener("DOMContentLoaded", (event) => {
                     <p class='correctP2'>${score}/${totalQuestions} questions</p>
                 </div>
                 <svg id="mycircle" width="300" height="300" viewBox="0 0 200 200"> 
-                    <circle id="correct-circle" r="80" cx="100" cy="100" fill="transparent" stroke="#d20094" stroke-width="30" 
-                        stroke-dasharray="${circumference}" stroke-dashoffset="0" 
-                        transform="rotate(-90 100 100)" /> 
-                    <circle id="incorrect-circle" r="80" cx="100" cy="100" fill="transparent" stroke="#00ffff" stroke-width="30" 
-                        stroke-dasharray="${circumference}" stroke-dashoffset="${circumference - correctOffset}" 
-                        transform="rotate(-90 100 100)" /> 
+                <circle id="incorrect-circle" r="80" cx="100" cy="100" fill="transparent" stroke="#00ffff" stroke-width="30" 
+                stroke-dasharray="${circumference}" stroke-dashoffset="0" 
+                transform="rotate(-90 100 100)" /> 
+            <circle id="correct-circle" r="80" cx="100" cy="100" fill="transparent" stroke="#d20094" stroke-width="30" 
+                stroke-dasharray="${circumference}" stroke-dashoffset="${circumference - incorrectOffset}" 
+                transform="rotate(-90 100 100)" /> 
                     <text x="50%" y="45%" alignment-baseline="middle" text-anchor="middle" font-size="16px" fill="#fff"> 
                         ${
                           percentCorrect >= passingScore
