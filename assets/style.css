@@ -412,6 +412,10 @@ input[type="radio"]:checked + label {
     width: 150px;
 }
 
+.result {
+    margin-top: -25px;
+}
+
 #details-container {
     display: flex;
     align-items: center;
@@ -472,6 +476,7 @@ input[type="radio"]:checked + label {
 
 .winP {
     fill: #33ffff;
+    margin-bottom: 2rem;
 }
 
 .loseP {
@@ -481,7 +486,7 @@ input[type="radio"]:checked + label {
 .secondP,
 .thirdP {
     fill: white;
-    font-size: 0.6rem;
+    font-size: 0.45rem;
 }
 
 .thirdP {
