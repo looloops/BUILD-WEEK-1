@@ -77,6 +77,22 @@ document.addEventListener("DOMContentLoaded", function () {
     if (event.key === "Enter") {
       event.preventDefault(); // Previene l'invio del form e il ricaricamento della pagina
       let inputData = takeData.value;
+
+      document.getElementsByClassName("mainFeedback")[0].style.display = "none";
+
+      // document.getElementsByClassName("feedbackResult")[0].style.display = "block";
+      if (selectedRating > 5) {
+        const ciao = document.getElementsByClassName("positive")[0];
+        ciao.style.display = "block";
+      } else {
+        const ciao = document.getElementsByClassName("negative")[0];
+        ciao.style.display = "block";
+      }
+      // let main = document.createElement("main")
+      // main.className = "risultatoFeedback"
+      // const header = document.getElementsByTagName("header")[0]
+      // header.appendChild(main)
+
       console.log("Commento:", inputData); // Stampa il commento in console
       console.log("Stelle selezionate:", selectedRating); // Stampa il rating selezionato in console
       resetStars(); // Resetta le stelle
