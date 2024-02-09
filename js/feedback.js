@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
   takeData.addEventListener("keydown", function (event) {
     if (event.key === "Enter") {
       event.preventDefault(); // Previene l'invio del form e il ricaricamento della pagina
-      var inputData = takeData.value;
+      let inputData = takeData.value;
       console.log("Commento:", inputData); // Stampa il commento in console
       console.log("Stelle selezionate:", selectedRating); // Stampa il rating selezionato in console
       resetStars(); // Resetta le stelle
